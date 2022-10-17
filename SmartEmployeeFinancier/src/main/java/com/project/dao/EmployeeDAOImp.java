@@ -18,7 +18,7 @@ public class EmployeeDAOImp implements EmployeeDAO {
 	
 	public void insert(EmployeeVO employeeVO)
 	{
-		Session session=this.sessionFactory.getCurrentSession();
+		  Session session=this.sessionFactory.getCurrentSession();
 			session.save(employeeVO);
 	}
 	

@@ -19,8 +19,7 @@ public class DatasetService
 
 	@Transactional
 		public void insert(DatasetVO datasetVO) {
-			this.datasetDAO.insert(datasetVO);
-			
+			this.datasetDAO.insert(datasetVO);	
 		}
 	
 	@Transactional
